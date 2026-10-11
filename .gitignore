@@ -1,0 +1,27 @@
+# Fichiers personnels
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Secrets
+.env
+*.secret
+
+# Cœur AzerothCore (retirer cette ligne si vous passez en submodule)
+vendor/
+
+# Données propriétaires : client, archives et données extraites
+*.MPQ
+*.mpq
+data/
+dbc/
+maps/
+vmaps/
+mmaps/
+Cameras/
+client-patch/build/
+
+# Sauvegardes et logs
+backups/
+*.sql.gz
+logs/
+*.log
