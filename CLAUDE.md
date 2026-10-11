@@ -4,8 +4,8 @@
 
 - Serveur WoW privé.
 - Base visée : AzerothCore, client WotLK 3.3.5a (build 12340). Choix à confirmer en phase 1.
-- But final : un serveur stable, puis **une seule** classe custom inspirée d'un job FFXIV , plus une étude de faisabilité sur les assets.
-- Mon niveau : . Explique les notions propres à l'émulation WoW (DBC, MPQ, extracteurs, SpellFamily…) la première fois qu'elles apparaissent.
+- But final : un serveur stable, puis **une seule** classe custom inspirée d'un job FFXIV (choisi : Mage Rouge, voir `docs/decisions/0002-job-ffxiv.md`), plus une étude de faisabilité sur les assets.
+- Mon niveau : débutant (je ne connais ni l'émulation WoW ni le C++ ; commandes guidées pas à pas). Explique les notions propres à l'émulation WoW (DBC, MPQ, extracteurs, SpellFamily…) la première fois qu'elles apparaissent.
 - Infos propres à ma machine (OS, chemins du client WoW) : voir `CLAUDE.local.md`.
 
 ## État du projet
@@ -47,6 +47,7 @@ Structure cible, à confirmer ou ajuster en phase 2 :
 2. **Vérifier avant d'affirmer** : champs DBC, tables SQL, options CMake, API Eluna se vérifient dans le code source cloné (`vendor/`) ou la doc officielle. Ne jamais inventer un nom de champ ou de table. En cas de doute, le dire.
 3. **Rien d'irréversible sans mon accord explicite** : `DROP`, suppression de volumes Docker, écrasement de config, réécriture d'historique Git, modification de mon dossier client WoW.
 4. **Sauvegarde d'abord** : dump des bases avant toute migration ou import SQL massif.
+5. **Pas de contenu FFXIV** : on s'inspire des mécaniques de jeu, mais on n'extrait, ne convertit ni n'intègre aucun fichier FFXIV, et on n'en reprend ni noms ni textes. Classe, sorts et visuels sont originaux ou issus de WoW.
 
 ## Façon de travailler
 
