@@ -25,3 +25,8 @@ backups/
 *.sql.gz
 logs/
 *.log
+
+# Fichiers FFXIV extraits (usage local uniquement, règle 5)
+assets/ffxiv/
+client-patch/build/
+*ffxiv*.mpq

@@ -47,7 +47,7 @@ Structure cible, à confirmer ou ajuster en phase 2 :
 2. **Vérifier avant d'affirmer** : champs DBC, tables SQL, options CMake, API Eluna se vérifient dans le code source cloné (`vendor/`) ou la doc officielle. Ne jamais inventer un nom de champ ou de table. En cas de doute, le dire.
 3. **Rien d'irréversible sans mon accord explicite** : `DROP`, suppression de volumes Docker, écrasement de config, réécriture d'historique Git, modification de mon dossier client WoW.
 4. **Sauvegarde d'abord** : dump des bases avant toute migration ou import SQL massif.
-5. **Pas de contenu FFXIV** : on s'inspire des mécaniques de jeu, mais on n'extrait, ne convertit ni n'intègre aucun fichier FFXIV, et on n'en reprend ni noms ni textes. Classe, sorts et visuels sont originaux ou issus de WoW.
+5. **Fichiers FFXIV : usage local et personnel uniquement** (décision de Jimmy, 2026-10-12, voir `docs/decisions/0003-fichiers-ffxiv-usage-local.md`). Extraction en lecture seule depuis mon installation FFXIV, jamais commitée, poussée, partagée ni distribuée : sources et dérivés restent dans des dossiers ignorés par Git. Les noms et textes FFXIV ne sont pas repris : la classe, les sorts et leurs noms sont originaux.
 
 ## Façon de travailler
 

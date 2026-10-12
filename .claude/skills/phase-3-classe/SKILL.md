@@ -7,7 +7,7 @@ argument-hint: "[A|B]"
 
 # Phase 3 — Classe inspirée de FFXIV (palier $ARGUMENTS)
 
-Prérequis : phase 2 validée (voir `docs/STATUS.md`). Commencer en mode Plan. Règle 5 de `CLAUDE.md` s'applique : idée des mécaniques oui, fichiers et noms FFXIV non.
+Prérequis : phase 2 validée (voir `docs/STATUS.md`). Commencer en mode Plan. Règle 5 de `CLAUDE.md` s'applique : mécaniques inspirées, noms et textes originaux ; fichiers FFXIV en usage local et personnel seulement, jamais commités.
 
 ## Choix du job (si pas encore décidé)
 
